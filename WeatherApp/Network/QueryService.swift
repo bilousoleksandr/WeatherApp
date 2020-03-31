@@ -24,6 +24,7 @@ final class QueryService {
     }
 
     func getFiveDays() -> [List] {
+        
         var tmpArray : [List] = []
         let string = weatherModel.list[1].dtTxt.suffix(8)
         for item in weatherModel.list {
@@ -31,18 +32,13 @@ final class QueryService {
                 tmpArray.append(item)
             }
         }
-//        for (index, item) in weatherModel.list.enumerated() {
-//            if index % 5 == 0 {
-//                tmpArray.append(item)
-//            }
-//        }
         return tmpArray
     }
     
     
     func getSearchResults (withTerm term: String, onSuccess: @escaping (Model) -> (), onFailure: @escaping (Error) -> () ){
         let searchString = (term as NSString).replacingOccurrences(of: " ", with: "%20")
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/forecast?q=\(searchString)&units=metric&appid=a2903a54cfc6a83bd07e7c9d4602977c") else {
+        guard let url = URL(string: Constants.host + Constants.baseUrl + searchString + Constants.units) else {
             return
         }
         
@@ -56,17 +52,23 @@ final class QueryService {
                  
                 let decodeResponce = try self.decoder.decode(Model.self, from: dataResponse)
                 self.weatherModel = decodeResponce
-                print(self.weatherModel.cod)
                 onSuccess(decodeResponce)
                 
               } catch let parsingError {
                  print("Error", parsingError)
-                print("Error here")
                  onFailure(parsingError)
             }
             
         }
         
         task.resume()
+    }
+}
+
+private extension QueryService {
+    enum Constants {
+        static let host = "https://api.openweathermap.org"
+        static let baseUrl = "/data/2.5/forecast?q="
+        static let units = "&units=metric&appid=a2903a54cfc6a83bd07e7c9d4602977c"
     }
 }

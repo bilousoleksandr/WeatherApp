@@ -23,6 +23,8 @@ class SettingsViewController: UITableViewController {
     }
     
     func setupView () {
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.black]
+        
         tableView.alwaysBounceVertical = false
         navigationItem.title = "Settings"
         navigationItem.largeTitleDisplayMode = .always
