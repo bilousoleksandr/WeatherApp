@@ -10,7 +10,7 @@
 		E8130CF624336B8E001A27AD /* UIColor+AdditionalColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8130CF524336B8E001A27AD /* UIColor+AdditionalColor.swift */; };
 		E8130CF824336F4E001A27AD /* country-by-name.json in Resources */ = {isa = PBXBuildFile; fileRef = E8130CF724336F4E001A27AD /* country-by-name.json */; };
 		E8130CFA24338979001A27AD /* UIImage+BackgroundWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8130CF924338979001A27AD /* UIImage+BackgroundWeather.swift */; };
-		E8130D072433B96B001A27AD /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E8130D062433B96B001A27AD /* Cities.json */; };
+		E8130D092433BA2A001A27AD /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E8130D082433BA2A001A27AD /* Cities.json */; };
 		E831BA6C2429FD7F00E78660 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831BA6B2429FD7F00E78660 /* SettingsCell.swift */; };
 		E831BA6F242A05A100E78660 /* MainLocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831BA6E242A05A100E78660 /* MainLocationCell.swift */; };
 		E831BA71242A08F500E78660 /* AboutAppCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E831BA70242A08F500E78660 /* AboutAppCell.swift */; };
@@ -59,7 +59,7 @@
 		E8130CF524336B8E001A27AD /* UIColor+AdditionalColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+AdditionalColor.swift"; sourceTree = "<group>"; };
 		E8130CF724336F4E001A27AD /* country-by-name.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "country-by-name.json"; path = "../../country-by-name.json"; sourceTree = "<group>"; };
 		E8130CF924338979001A27AD /* UIImage+BackgroundWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+BackgroundWeather.swift"; sourceTree = "<group>"; };
-		E8130D062433B96B001A27AD /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Cities.json; path = Resources/Cities.json; sourceTree = "<group>"; };
+		E8130D082433BA2A001A27AD /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
 		E831BA6B2429FD7F00E78660 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
 		E831BA6E242A05A100E78660 /* MainLocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLocationCell.swift; sourceTree = "<group>"; };
 		E831BA70242A08F500E78660 /* AboutAppCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppCell.swift; sourceTree = "<group>"; };
@@ -260,7 +260,7 @@
 				E8EB678C24262287000C2766 /* LaunchScreen.storyboard */,
 				E8EB678F24262287000C2766 /* Info.plist */,
 				E8130CF724336F4E001A27AD /* country-by-name.json */,
-				E8130D062433B96B001A27AD /* Cities.json */,
+				E8130D082433BA2A001A27AD /* Cities.json */,
 				E80F602B242B3940000B12E9 /* Network */,
 				E8A62B962428C94500072D04 /* Converter.swift */,
 				E87BBFBE243245300035FC5D /* UsersLocation */,
@@ -346,7 +346,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8130D072433B96B001A27AD /* Cities.json in Resources */,
+				E8130D092433BA2A001A27AD /* Cities.json in Resources */,
 				E8130CF824336F4E001A27AD /* country-by-name.json in Resources */,
 				E8EB678E24262287000C2766 /* LaunchScreen.storyboard in Resources */,
 				E8EB678B24262287000C2766 /* Assets.xcassets in Resources */,
