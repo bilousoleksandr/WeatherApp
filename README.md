@@ -7,6 +7,7 @@
 * ability to specify current location
 * searchbar for countries and cities
 
+
 Users current location and city name via CoreLocation
 
 Working with network via URLSession and JSONDecoder
