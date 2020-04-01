@@ -36,7 +36,9 @@ Edit Selected cities
 ![](https://media.giphy.com/media/IgdEcVRJEf8gQIdvfH/giphy.gif)
 
 Metric and imperial units
+
 ![](https://media.giphy.com/media/iJb6RsNoHaExQyMmjD/giphy.gif)
+
 
 ----
 Icons and pictures 
