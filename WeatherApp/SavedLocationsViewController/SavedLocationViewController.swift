@@ -205,7 +205,7 @@ class SavedLocationViewController: UITableViewController {
             presentCityWeather(city: UserSettings.shared.currentSettings.currentPlace ?? "")
         case 1:
             let viewController = CountriesListController(country: String(), changeDefaultLocation: true)
-            self.navigationController?.pushViewController(viewController, animated: true)
+            navigationController?.pushViewController(viewController, animated: true)
         case 2:
             break
         case 3:

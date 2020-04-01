@@ -125,7 +125,7 @@ class CountriesListController: UITableViewController {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: Cells.basicCell)
         navigationItem.title = country.isEmpty ? "Select country" : country
         
-        navigationItem.searchController = UISearchController()
+        navigationItem.searchController = UISearchController(searchResultsController: nil)
         navigationItem.searchController?.searchBar.delegate = self
     }
     

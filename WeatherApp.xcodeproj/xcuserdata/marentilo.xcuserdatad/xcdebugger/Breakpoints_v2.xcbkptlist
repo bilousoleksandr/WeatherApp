@@ -76,8 +76,8 @@
             filePath = "WeatherApp/WeatherViewController/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "settingsButton"
             landmarkType = "24">
          </BreakpointContent>
@@ -92,8 +92,10 @@
             filePath = "WeatherApp/WeatherViewController/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227">
+            startingLineNumber = "223"
+            endingLineNumber = "223"
+            landmarkName = "tableView(_:willDisplay:forRowAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
