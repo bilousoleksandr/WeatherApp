@@ -1,5 +1,12 @@
 # WeatherApp
 
+* weather and other conditions for current location 
+* main screen with 5 day / 3 hour forecast
+* settings for metric and imperial units
+* additional locations with current temperature and time
+* ability to specify current location
+* searchbar for countries and cities
+
 Users current location and city name via CoreLocation
 
 Working with network via URLSession and JSONDecoder
